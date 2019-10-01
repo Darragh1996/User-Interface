@@ -77,9 +77,17 @@ h1, h2, h3, h4, h5 {
 	padding: 50px;
 }
 
+header {
+	background-color: slateblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 header nav {
 	display: inline-block;
 	margin-right: 60px;
+	
 }
 
 header nav a {
@@ -87,7 +95,14 @@ header nav a {
 	margin: 20px;
 	/* margin-bottom: 15px; */
 	color: rgb(161, 154, 154);
+	transition: 0.5s;
 
+
+}
+
+header nav a:hover {
+	font-size: 35px;
+	transition: 0.5s;
 }
 
 h1 {
@@ -97,6 +112,7 @@ h1 {
 	text-align: center;
 	/* padding-right: 3px; */
 	vertical-align: bottom;
+	font-family: 'Mansalva', cursive;
 }
 
 .logo {

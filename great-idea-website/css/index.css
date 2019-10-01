@@ -121,12 +121,12 @@ section {
 	margin-bottom: 40px;
 }
 
-.features {
-	width: 50%;
+.about, .features {
+	width: 40%;
 	display: inline-block;
 } 
 
-.about {
-	width: 50%;
+.services, .product, .vision {
+	width: 23%;
 	display: inline-block;
-} 
+}

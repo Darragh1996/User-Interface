@@ -92,10 +92,14 @@ header nav a {
 
 h1 {
 	display: inline-block;
-	width: 50%;
+	width: calc(50% - 30px);
 	font-size: 80px;
 	text-align: center;
 	/* padding-right: 3px; */
+	vertical-align: bottom;
+}
+
+.logo {
 	vertical-align: bottom;
 }
 
@@ -104,7 +108,8 @@ h1 {
 	width: 200px;
 	height: 40px;
 	text-align: center;
-	margin: 10px 130px;
+	margin-top: 10px;
+	margin-left: 290px;
 	padding: 10px;
 	border: 1px solid black;
 	font-size: 18px;
@@ -136,6 +141,10 @@ section {
 .services, .product, .vision {
 	width: calc(33% - 100px);
 	display: inline-block;
+}
+
+.vision {
+	margin-right: 0;
 }
 
 small {

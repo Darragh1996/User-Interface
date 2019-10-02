@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	margin: 30px 35px;
+	padding: 30px;
+	border: 1px solid rgb(161, 154, 154);
+}
+
+.top-content {
+	border-bottom: 1px solid black;
+	margin: 10px auto;
+	padding: 50px;
+}
+
+header {
+	background-color: slateblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+header nav {
+	display: inline-block;
+	margin-right: 60px;
+	
+}
+
+header nav a {
+	text-decoration: none;
+	margin: 20px;
+	/* margin-bottom: 15px; */
+	color: rgb(161, 154, 154);
+	transition: 0.5s;
+
+
+}
+
+header nav a:hover {
+	font-size: 35px;
+	transition: 0.5s;
+}
+
+h1 {
+	display: inline-block;
+	width: calc(50% - 30px);
+	font-size: 80px;
+	text-align: center;
+	/* padding-right: 3px; */
+	vertical-align: bottom;
+	font-family: 'Mansalva', cursive;
+}
+
+.logo {
+	vertical-align: bottom;
+}
+
+.button {
+	display: block;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 290px;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 18px;
+}
+
+section {
+	margin: 40px;
+}
+
+.header-image {
+	width: 5
+}
+
+.middle-img {
+	display: block;
+	margin: 0 auto; 
+} 
+
+.main-content {
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.about, .features {
+	width: calc(50% - 100px);
+	display: inline-block;
+} 
+
+.services, .product, .vision {
+	width: calc(33% - 100px);
+	display: inline-block;
+}
+
+.vision {
+	margin-right: 0;
+}
+
+small {
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	margin: 30px calc(50%);
+}

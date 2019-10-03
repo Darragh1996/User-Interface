@@ -3,169 +3,257 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
 .container {
-	margin: 30px 35px;
-	padding: 30px;
-	border: 1px solid rgb(161, 154, 154);
+  margin: 30px 35px;
+  padding: 30px;
+  border: 1px solid rgb(161, 154, 154);
 }
 
 .top-content {
-	border-bottom: 1px solid black;
-	margin: 10px auto;
-	padding: 50px;
+  border-bottom: 1px solid black;
+  margin: 10px auto;
+  padding: 50px;
 }
 
 header {
-	background-color: slateblue;
-	position: fixed;
-	top: 0;
-	width: 100%;
+  background-color: slateblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header nav {
-	display: inline-block;
-	margin-right: 60px;
-	
+  display: inline-block;
+  margin-right: 60px;
 }
 
 header nav a {
-	text-decoration: none;
-	margin: 20px;
-	/* margin-bottom: 15px; */
-	color: rgb(161, 154, 154);
-	transition: 0.5s;
-
-
+  text-decoration: none;
+  margin: 20px;
+  /* margin-bottom: 15px; */
+  color: rgb(161, 154, 154);
+  transition: 0.5s;
 }
 
 header nav a:hover {
-	font-size: 35px;
-	transition: 0.5s;
+  font-size: 35px;
+  transition: 0.5s;
 }
 
 h1 {
-	display: inline-block;
-	width: calc(50% - 30px);
-	font-size: 80px;
-	text-align: center;
-	/* padding-right: 3px; */
-	vertical-align: bottom;
-	font-family: 'Mansalva', cursive;
+  display: inline-block;
+  width: calc(50% - 30px);
+  font-size: 80px;
+  text-align: center;
+  /* padding-right: 3px; */
+  vertical-align: bottom;
+  font-family: "Mansalva", cursive;
 }
 
 .logo {
-	vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 .button {
-	display: block;
-	width: 200px;
-	height: 40px;
-	text-align: center;
-	margin-top: 10px;
-	margin-left: 290px;
-	padding: 10px;
-	border: 1px solid black;
-	font-size: 18px;
+  display: block;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 290px;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 18px;
 }
 
 section {
-	margin: 40px;
+  margin: 40px;
 }
 
 .header-image {
-	width: 5
+  width: 5;
 }
 
 .middle-img {
-	display: block;
-	margin: 0 auto; 
-} 
-
-.main-content {
-	border-bottom: 1px solid black;
-	margin-bottom: 40px;
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
 }
 
-.about, .features {
-	width: calc(50% - 100px);
-	display: inline-block;
-} 
+.main-content {
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+}
 
-.services, .product, .vision {
-	width: calc(33% - 100px);
-	display: inline-block;
+.about,
+.features {
+  width: calc(50% - 100px);
+  display: inline-block;
+}
+
+.services,
+.product,
+.vision {
+  width: calc(33% - 100px);
+  display: inline-block;
 }
 
 .vision {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 small {
-	text-align: center;
-	display: inline-block;
-	width: 200px;
-	margin: 30px calc(50%);
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  margin: 30px calc(50%);
 }
